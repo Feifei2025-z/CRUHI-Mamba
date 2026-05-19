@@ -18,11 +18,15 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cud
 # Install other dependencies
 pip install packaging==24.0
 pip install triton==2.2.0
+pip install ninja
 pip install mamba-ssm==1.2.0
+pip install einops
 pip install spectral
 pip install scikit-learn==1.4.1.post1
-pip install calflops
 pip install xarray
+pip install netCDF4
+pip insatll tqdm
+pip install calflops
 ```
 
 # UHI Data
