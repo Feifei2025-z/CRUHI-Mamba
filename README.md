@@ -3,9 +3,15 @@ Classification Model for Underwater Hyperspectral Images of Coral Reef Benthic
 The Code for "CRUHI-Mamba: A Mamba-based underwater hyperspectral image classification framework for coral reef benthic mapping" Link:
 
 # Installation
-**Requirements:**
-- Python 3.9
-- CUDA 11.7
+## System Requirements
+
+- **OS:** Linux (Ubuntu 20.04+ recommended)  
+  - **Windows users:** This project requires [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) with NVIDIA GPU support. WSL1 is **not supported**.
+- **GPU:** NVIDIA GPU with Compute Capability >= 7.0 (e.g., RTX 4090 D, RTX 3090, A100)
+- **CUDA:** 11.7
+- **Python:** 3.9
+
+> **Note:** This project is developed and tested on **WSL2 + Ubuntu 20.04.1 LTS**.
 
 ```bash
 # Create and activate environment
