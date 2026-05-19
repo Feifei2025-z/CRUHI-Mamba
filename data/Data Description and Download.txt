@@ -1,0 +1,4 @@
+The underwater hyperspectral benthic classification dataset for coral reefs was preprocessed prior to use, 
+including hyperspectral band clipping and class reindexing of the ground truth labels. 
+The preprocessed dataset supporting the findings of this study is available at https://doi.org/10.6084/m9.figshare.31130086. 
+The original, unprocessed coral reef hyperspectral dataset is publicly available and can be accessed at https://doi.org/10.1594/PANGAEA.911300.
