@@ -3,9 +3,9 @@ Classification Model for Underwater Hyperspectral Images of Coral Reef Benthic
 The Code for "CRUHI-Mamba: A Mamba-based underwater hyperspectral image classification framework for coral reef benthic mapping" Link:
 
 # Installation
-' ' '
-conda create -n CRUHIMamba python=3.9
-conda activate CRUHIMamba
+'''
+conda create -n MambaHSI_env python=3.9
+conda activate MambaHSI_env
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install packaging==24.0
 pip install triton==2.2.0
@@ -14,7 +14,7 @@ pip install spectral
 pip install scikit-learn==1.4.1.post1
 pip install calflops
 pip install xarray
-' ' '
+'''
 
 # UHI Data
 The underwater hyperspectral benthic classification dataset for coral reefs was preprocessed prior to use, including hyperspectral band clipping and class reindexing of the ground truth labels. 
