@@ -1,6 +1,6 @@
 # CRUHI-Mamba
 Classification Model for Underwater Hyperspectral Images of Coral Reef Benthic
-The Code for "CRUHI-Mamba: A Mamba-based underwater hyperspectral image classification framework for coral reef benthic mapping" Link:
+The Code for "CRUHI-Mamba: A Mamba-based underwater hyperspectral image classification framework for coral reef benthic mapping" Link: https://doi.org/10.1080/15481603.2026.2679361
 
 # Installation
 ## System Requirements
@@ -56,3 +56,6 @@ data
 
 # Citation
 Please kindly cite this paper if the code is useful and helpful for your research.
+
+# Acknowledgement
+Part of the model implementation is adapted from [MambaHSI](https://github.com/li-yapeng/MambaHSI). We sincerely thank the authors for their excellent work and open-source contribution.
